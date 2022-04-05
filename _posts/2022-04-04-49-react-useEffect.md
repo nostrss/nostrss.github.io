@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '특정 Dom에 접근해보자 useRef'
+title: '이것 좀 실행해줘 useEffect'
 author: 'Nostrss'
 comments: true
 tags: react javascript nextjs
