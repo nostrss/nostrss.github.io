@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[코드캠프#9] 메모'
+title: '[코드캠프#8] 메모'
 author: 'Nostrss'
 comments: true
 tags: memo codecamp
