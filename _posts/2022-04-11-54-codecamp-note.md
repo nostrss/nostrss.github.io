@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '상태 관리 도구 비교 '
+title: '[코드캠프#10] 메모'
 author: 'Nostrss'
 comments: true
 tags: memo codecamp
