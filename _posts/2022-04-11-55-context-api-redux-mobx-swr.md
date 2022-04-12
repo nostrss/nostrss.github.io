@@ -3,7 +3,7 @@ layout: post
 title: '상태 관리 도구 비교'
 author: 'Nostrss'
 comments: true
-tags: memo codecamp
+tags: react javascript nextjs
 excerpt_separator:
 sticky:
 hidden:
