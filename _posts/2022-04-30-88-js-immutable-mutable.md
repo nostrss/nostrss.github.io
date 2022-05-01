@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " React의 중요개념 가상돔(VDOM) "
+title: " 객체가 어떻게 변할수 있니? 불변 & 가변 "
 author: "Nostrss"
 comments: true
 tags: javascript 
