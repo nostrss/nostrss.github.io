@@ -9,7 +9,7 @@ sticky:
 hidden:
 ---
 
-## 얕은 복사(Shallow Copy)
+## Http 상태코드표
 
 [MDN Http 상태코드표 바로가기](https://developer.mozilla.org/ko/docs/Web/HTTP/Status)
 [section 10 of RFC 2616 바로가기](https://datatracker.ietf.org/doc/html/rfc2616#section-10)
