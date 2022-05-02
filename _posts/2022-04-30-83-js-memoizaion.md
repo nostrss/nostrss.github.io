@@ -3,7 +3,7 @@ layout: post
 title: " 왜 전부다 리렌더링해? 난 메모해 "
 author: "Nostrss"
 comments: true
-tags: javascript apollo graphql
+tags: javascript react
 excerpt_separator:
 sticky:
 hidden:
