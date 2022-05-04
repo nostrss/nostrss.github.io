@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "timestamp 쉽게 구현하기"
+title: "timeago 쉽게 구현하기"
 author: "Nostrss"
 comments: true
 tags: library timeago
@@ -14,6 +14,7 @@ hidden:
 카카오톡 메시지나 페이스북 게시물에 보면 타임스탬프가 단순 날짜가 아닌 경우가 많다. 
 
 >방금 전 게시 되었습니다.
+
 >1시간 전에 보낸 메시지
 
 이렇게 다양한 경우의 수로 타임스탬프가 표현되는 경우가 있다. 
@@ -27,6 +28,7 @@ hidden:
 설치는 위의 링크를 통해 설치하면 되고 사용법은 아래와 같다.
 
 >컨테이너 함수영역
+
 ```javascript
 const locale = function (number, index, totalSec) {
   // number: the timeago / timein number;
