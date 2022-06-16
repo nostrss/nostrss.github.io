@@ -9,6 +9,9 @@ sticky:
 hidden:
 ---
 
+
+
+
 ## 1. 폴더 구조 그대로 out 생성하기
 
 - `build`를 했을 때 생성된 `out` 폴더의 내부 `폴더구조`가 로컬과는 다르게 생성되는 일이 있었다.
@@ -16,7 +19,7 @@ hidden:
 
 ```javascript
 /** @type {import('next').NextConfig} */
-const Dotenv = require('dotenv-webpack');
+
 const nextConfig = {
   reactStrictMode: true,
   trailingSlash: true, // 폴더 구조 그대로 build를 해준다.
@@ -32,7 +35,7 @@ module.exports = nextConfig;
 
 ```javascript
 /** @type {import('next').NextConfig} */
-const Dotenv = require('dotenv-webpack');
+
 const nextConfig = {
   reactStrictMode: true,
   // eslint 규칙 무시
