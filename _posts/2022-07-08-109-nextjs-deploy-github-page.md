@@ -98,6 +98,7 @@ module.exports = {
 ```
 
 - `babel-plugin-transform-define` 설치
+
   https://www.npmjs.com/package/babel-plugin-transform-define
 
 ## 6. pages > index.js 파일의 Next.js Image 태그 영역 수정
@@ -118,7 +119,11 @@ height={16} />
 > 빌드 후 out폴더의 정적파일이 업로드 됨
 
 > 참고링크 1: https://velog.io/@ricale/next.js-%EB%A1%9C-GitHub-Pages-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0
+
 > 참고링크 2: https://hhyemi.github.io/2021/05/26/nextGit.html
+
 > 참고링크 3 : https://taeny.dev/javascript/nextjs-with-deployment-platform
+
 > 참고링크 4: https://boramyy.github.io/dev/front-end/nextjs/deploy-gh-pages/
+
 > 참고링크 5 : https://wallis.dev/blog/deploying-a-next-js-app-to-github-pages
