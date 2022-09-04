@@ -14,9 +14,10 @@ author:
 
 # Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+highlighter: rouge
+# kramdown:
+# input: GFM
+# syntax_highlighter: rouge
 include:
   - _pages
 
