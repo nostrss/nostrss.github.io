@@ -3,7 +3,7 @@ layout: post
 title: '[React] 게시판 만들기 2일차'
 author: 'Nostrss'
 comments: true
-tags: react class router redux firebase
+tags: react class router redux firebase firestore
 excerpt_separator:
 sticky:
 hidden:
