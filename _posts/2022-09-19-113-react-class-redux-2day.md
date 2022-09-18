@@ -13,10 +13,10 @@ hidden:
 
 ## Firebase 세팅
 
-1. firebase 로그인 > 콘솔로 이동
+1. `firebase` 로그인 > 콘솔로 이동
 2. 프로젝트 생성
-3. App추가(web)
-4. SDK 설치
+3. `App`추가(web)
+4. `SDK` 설치
    > npm install firebase
 5. firebase 초기화 파일 생성
 
@@ -50,20 +50,20 @@ export const fireBaseApp = getFirestore(app);
 // const analytics = getAnalytics(fireStore);
 ```
 
-키값들은 .env파일에 작성하여 노출이 되지 않도록 처리 했다.
+키값들은 `.env`파일에 작성하여 노출이 되지 않도록 처리 했다.
 
 이렇게 해도 프론트 쪽 키값들은 소스상에서는 노출이 되는 것으로 알긴 아는데...
 
 찝찝한 마음에 일단은 보이지는 않게 처리 했다.
 
-그리고 .gitignore에도 .env 추가
+그리고 `.gitignore`에도 .env 추가
 
 일단 이렇게만 하면 firebase를 사용할 준비는 끝이 난다.
 
 ## Class형 컴포넌트로 Firebase와 통신 해보기
 
 일단 통신이 되는지 확인을 해보기로 했다.
-텍스트 정보는 Cloud Firestore에 저장할 예정이다.
+텍스트 정보는 `Cloud Firestore`에 저장할 예정이다.
 
 > [Cloud Firestore란?](!https://firebase.google.com/docs/firestore?hl=ko&authuser=0)
 
