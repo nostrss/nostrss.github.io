@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[t] type과 interface'
+title: '[ts] type과 interface'
 author: 'Nostrss'
 comments: true
 tags: typescript
