@@ -1,9 +1,9 @@
 ---
 layout: post
-title: '멈춰야 비로서 보이는 것들..no console.log 1달째'
+title: '멈춰야 비로서 보이는 것들 (no console.log 1달째)'
 author: 'Nostrss'
 comments: true
-tags: console log javascript Debug
+tags: console javascript debug
 excerpt_separator:
 sticky:
 hidden:
