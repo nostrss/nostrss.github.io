@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[월간코딩] #1'
+title: '[월간코딩] #1 시작'
 author: 'Nostrss'
 comments: true
 tags: react typescript firebase
