@@ -27,6 +27,7 @@ PWA는 온라인에서 쉽게 접근 가능하며, 브라우저를 통해 실행
 ### PWA의 기술적 정의
 
 [What is a Progressive Web App?](https://adactio.medium.com/what-is-a-progressive-web-app-f1ca780f30e6)
+
 제레미 키스(Jeremy Keith)는 PWA의 기술적 특징을 이렇게 설명한다
 
 1. HTTPS
