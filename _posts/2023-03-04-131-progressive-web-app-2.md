@@ -9,7 +9,7 @@ sticky:
 hidden:
 ---
 
-## PWA란 장점
+## PWA 장점
 
 프로그레시브 웹 앱(Progressive Web App, PWA)은 웹과 네이티브 앱의 기능을 결합한 형태의 애플리케이션이다.
 
