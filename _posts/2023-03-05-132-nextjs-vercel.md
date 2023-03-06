@@ -10,6 +10,7 @@ hidden:
 ---
 
 [전체 소스코드](https://github.com/nostrss/next-render)
+
 [DEMO](https://next-render-hjuyogs9h-nostrss.vercel.app/)
 
 최근 공부의 목적에 대해 갈팡질팡하다가 rendering에 대해 부쩍 관심이 생겼다.
@@ -22,7 +23,7 @@ hidden:
 
 먼저 렌더링할 데이터를 fetch할 api가 필요했다.
 
-최대한 간단히 구현하고 싶어서 auth,cors를 신경쓸 필요 없는 api를 하나 찾았다.
+최대한 간단히 구현하고 싶어서 auth,cors를 신경 쓸 필요 없는 api를 하나 찾았다.
 
 > 사용할 API : [Art Institute of Chicago API](https://api.artic.edu/docs/)
 
