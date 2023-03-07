@@ -38,7 +38,7 @@ hidden:
 
 ## 작품 리스트 페이지 SSR 구현
 
-> [SSR록 구현된 전체 소스코드](https://github.com/>nostrss/next-render/blob/main/src/pages/index.js)
+> [SSR로 구현된 전체 소스코드](https://github.com/>nostrss/next-render/blob/main/src/pages/index.js)
 
 ### SSR 구현 전 코드
 
