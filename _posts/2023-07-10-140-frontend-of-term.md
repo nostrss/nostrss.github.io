@@ -33,9 +33,9 @@ hidden:
 ### 단점
 
 - TTV, FCP 시간이 길다.
-  > TTV : time to view, 유저가 화면을 볼때까지의 시간
 
-> FCP : first contentful paint, 유저가 화면에 처음으로 무언가를 볼 수 있는 시간
+  > TTV : time to view, 유저가 화면을 볼때까지의 시간
+  > FCP : first contentful paint, 유저가 화면에 처음으로 무언가를 볼 수 있는 시간
 
 - SEO 최적화가 어렵다.
 
