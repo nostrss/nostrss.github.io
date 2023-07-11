@@ -12,6 +12,7 @@ hidden:
 ## Props
 
 NEXT.JS에서는 기본적으로 컴포넌트에 Props로 params와 searchParams를 전달해준다.
+
 상위 컴포넌트에서 아무런 Props를 전달하지 않아도 params와 searchParams를 사용할 수 있다.
 
 ```js
@@ -26,26 +27,26 @@ export default function Page({
 }
 ```
 
-### params
+## params
 
 `params`: URL의 path에 있는 동적 경로 파라미터를 담고 있는 객체이다.
 
 예를 들면 아래와 같다.
 
 | Example                            | URL       | params                       |
-| ---------------------------------- | --------- | ---------------------------- |
+| :--------------------------------- | :-------- | :--------------------------- |
 | app/shop/[slug]/page.js            | /shop/1   | { slug: '1' }                |
 | app/shop/[category]/[item]/page.js | /shop/1/2 | { category: '1', item: '2' } |
 | app/shop/[...slug]/page.js         | /shop/1/2 | { slug: ['1', '2'] }         |
 
 예전에 나는 useRouter를 사용해서 params를 가져왔었는데, 이제는 이렇게 간단하게 가져올 수 있다.
 
-### searchParams
+## searchParams
 
 `searchParams`: URL의 query string에 있는 파라미터를 담고 있는 객체
 
 | URL           | searchParams       |
-| ------------- | ------------------ |
+| :------------ | :----------------- |
 | /shop?a=1     | { a: '1' }         |
 | /shop?a=1&b=2 | { a: '1', b: '2' } |
 | /shop?a=1&a=2 | { a: ['1', '2'] }  |
