@@ -3,7 +3,7 @@ layout: post
 title: '[NEXT] Middleware와 Edge Functions'
 author: 'Nostrss'
 comments: true
-tags: nestjs typeorm express error repository datasource
+tags: nestjs edge vercel runtime middleware
 excerpt_separator:
 sticky:
 hidden:
