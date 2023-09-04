@@ -71,17 +71,17 @@ yarn install
 
 패키지들이 압축파일로 저장되어 있는 것을 확인할 수 있었다.
 
-기존에는 `node_modules` 폴더는 용량이 커서 `github`에 푸쉬하지 않는것이 일반적이었다.
+기존에는 `node_modules` 폴더 용량이 커서 `github`에 푸쉬하지 않는것이 일반적이었다.
 
 그렇기 때문에 공동작업자가 있을 경우, 소스코드를 받아서 실행하기 위해서는 패키지를 npm에서 재설치 해야했다.
 
 그리고 만약 이 과정에서 npm 패키지에서 사라진 것이 있다면, 소스코드를 실행할 수 없는 상황이 발생할 수도 있었다.
 
-_하지만 `yarnberry` 모드에서 패키지들은 압축되어 용량이 작기 때문에, github에 설치된 패키지들을 함께 푸쉬한다고 한다. 이로서 공동작업자는 소스코드를 받아서 바로 실행할 수 있는 것이다._
+_**하지만 `yarnberry` 모드에서 패키지들은 압축되어 용량이 작기 때문에, github에 설치된 패키지들을 함께 푸쉬한다고 한다. 이로서 공동작업자는 소스코드를 받아서 바로 실행할 수 있는 것이다.**_
 
 ## gitignore에 코드 추가
 
-`yarnberry` 모드에 맞게 `gitignore에` 코드를 추가해줬다.
+`yarnberry` 모드에 맞게 `gitignore`에 코드를 추가해줬다.
 
 ```
 # yarn berry
@@ -100,7 +100,8 @@ _하지만 `yarnberry` 모드에서 패키지들은 압축되어 용량이 작�
 > 이 부분은 링크의 도움을 받아 진행했다.
 
 > [🔗 리멤버 웹 서비스 좌충우돌 Yarn Berry 도입기 바로가기 🔗](https://blog.dramancompany.com/2023/02/%EB%A6%AC%EB%A9%A4%EB%B2%84-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A2%8C%EC%B6%A9%EC%9A%B0%EB%8F%8C-yarn-berry-%EB%8F%84%EC%9E%85%EA%B8%B0/)
-> 현재 상태에서 작성되어 있는 코드를 보면 `typescript` 에러가 발생하고 있었다.
+
+현재 상태에서 작성되어 있는 코드를 보면 `typescript` 에러가 발생하고 있었다.
 
 <img width="1392" alt="스크린샷 2023-09-04 오전 11 53 27" src="https://github.com/nostrss/nostrss.github.io/assets/56717167/a7fdb8fb-116f-4b11-ab08-97ea6b7403d6">
 
