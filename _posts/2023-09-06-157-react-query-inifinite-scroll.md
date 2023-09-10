@@ -10,9 +10,9 @@ sticky:
 hidden:
 ---
 
-그동안 무한스크롤을 구현하기 위해 몇가지 라이브러리를 사용해봤다.
+그동안 `무한스크롤`을 구현하기 위해 몇가지 라이브러리를 사용해봤다.
 
-그런데 React-Query 문서를 보던 중 useInfiniteQuery를 제공하는 것을 알았고 이를 통해 무한스크롤을 구현해보기로 했다.
+그런데 이번에 `React-Query` 문서를 보던 중 `useInfiniteQuery`를 제공하는 것을 알았고 이를 통해 무한스크롤을 구현해보기로 했다.
 
 ## 무한스크롤의 구현원리
 
@@ -36,9 +36,9 @@ hidden:
 
 그래서 마크다운 파일을 읽어와서 가공하는 과정이 있기 때문에 코드가 다소 길다.
 
-그리고 api 응답값에서 중요한 건 다음 페이지가 있는지 여부를 나타내는 값이다.
+그리고 api 응답값에서 `중요`한 건 `다음페이지`가 있는지 여부를 나타내는 값이다.
 
-나중에 react-query의 useInfiniteQuery를 사용할 때 이 값을 이용해 다음 페이지가 있는지 여부를 판단할 것이다.
+나중에 `react-query`의 `useInfiniteQuery`를 사용할 때 이 값을 이용해 다음 페이지가 있는지 여부를 판단할 것이다.
 
 ```ts
 import { UTIL } from '@/util';
@@ -147,7 +147,7 @@ const imageUrlValidate = (images: ImgesArrayItem[]) => {
 [🔗 Tanstack Infinite Queries 문서보기 🔗](https://tanstack.com/query/latest/docs/react/guides/infinite-queries)
 
 아래는 공식문서의 일부를 발췌한 것이다.  
-Query와 사용법이 비슷하지만 다소 다르게 생겼다. 하나씩 살펴보자.
+`Query`와 사용법이 비슷하지만 다소 다르게 생겼다. 하나씩 살펴보자.
 
 ```tsx
 const {
@@ -184,7 +184,7 @@ const { data, isFetching, fetchNextPage, hasNextPage } = useInfiniteQuery({
 });
 ```
 
-위에서 찍힌 console.log를 살펴볼 필요가 있다.
+위에서 찍힌 `console.log`를 살펴볼 필요가 있다.
 
 ```json
 {
@@ -198,9 +198,9 @@ const { data, isFetching, fetchNextPage, hasNextPage } = useInfiniteQuery({
 
 getNextPageParam 함수의 인자로 들어온 lastPage는 위와 같은 형태이다.
 
-그리고 이 함수의 반환값은 다음 페이지의 number이며, 이 값은 queryFn의 pageParam으로 들어간다.
+그리고 이 함수의 반환값은 다음 페이지의 `number`이며, 이 값은 `queryFn`의 `pageParam`으로 들어간다.
 
-그래서 만약 백엔드 개발자가 따로 있다면 다음페이지의 number를 반환하는 API를 만들어야 한다.
+그래서 만약 백엔드 개발자가 따로 있다면 응답값에 다음페이지의 number를 반환하도록 요청해야한다.
 
 ## IntersectionObserver를 이용한 무한스크롤 구현하기
 
@@ -208,9 +208,9 @@ getNextPageParam 함수의 인자로 들어온 lastPage는 위와 같은 형태�
 
 이제는 다음페이지를 불러오도록 하기 위해서 트리거를 구현해야한다.
 
-- 빈 div를 만들고 이 div를 IntersectionObserver의 target으로 지정해야한다.
-- 그래서 useRef를 이용해 ref에 바인딩 해주었다.
-- 그리고 빈 div가 화면에 보이면 fetchNextPage를 실행한다.
+- 빈 `div`를 만들고 이 `div`를 `IntersectionObserver`의 `targe`t으로 지정해야한다.
+- 그래서 `useRef`를 이용해 위의 빈 div의 ref에 바인딩 해주었다.
+- 그리고 빈 div가 화면에 보이면 `fetchNextPage`를 실행한다.
   > 주의사항 : IntersectionObserver는 Web API이기 때문에 SSR에서는 사용할 수 없다. 그러므로 useEffect를 이용해 빈 div가 화면에 보일때만 IntersectionObserver를 실행하도록 해야한다.
 
 ```tsx
@@ -246,7 +246,7 @@ return (
 
 위의 같이 코드를 작성하고 실행해보면 무한스크롤이 작동을 하지 않는다.
 
-그 이유는 useInfiniteQuery가 반환하는 data의 구조 때문이다.
+그 이유는 `useInfiniteQuery`가 반환하는 data의 구조 때문이다.
 
 <img width="705" alt="스크린샷 2023-09-10 오후 11 34 47" src="https://github.com/nostrss/nostrss.github.io/assets/56717167/be9be825-5c66-414c-80fe-841df347db13">
 
