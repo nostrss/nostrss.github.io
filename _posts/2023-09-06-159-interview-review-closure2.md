@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[면접리뷰]클로저(Closure)란? 2'
+title: '[면접리뷰]클로저(Closure)란? (2)'
 description: '다양한 예제를 보고 클로저에 대해 조금 더 이해해보자.'
 author: 'Nostrss'
 comments: true
